@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vika-Kov/NodeJS.git"
+  },
+  "author": "Vika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vika-Kov/NodeJS/issues"
+  },
+  "homepage": "https://github.com/vika-Kov/NodeJS#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
