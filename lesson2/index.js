@@ -17,12 +17,12 @@ for (let i = 2; i < argvLength; i++) {
   //hh-dd-mm-yy один таймер
   // hh-dd-mm-yy hh-dd-mm-yy два таймера 
   const [hour, day, month, year] = [...args[i].split("-")];
-  // const seconds =
-  //   hour * 3600 +
-  //   day * 24 * 3600 +
-  //   month * 30 * 24 * 3600 +
-  //   year * 365 * 30 * 24 * 3600;
-  const seconds = 3;
+  const seconds =
+     hour * 3600 +
+     day * 24 * 3600 +
+     month * 30 * 24 * 3600 +
+     year * 365 * 30 * 24 * 3600;
+  
 
   const timer = {
     timerName,
